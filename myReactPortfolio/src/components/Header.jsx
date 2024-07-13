@@ -18,10 +18,10 @@ function Header() {
     ];
 
     return (
-        <header className="bg-gray-800 text-white p-4">
+        <header className="bg-gray-800 text-white p-4 font-montserrat">
             <nav className="container mx-auto flex justify-between items-center">
                 <div className="text-2xl font-bold">
-                    <Link to="/">My Story So Fa</Link>
+                    <Link to="/">My Story So Far</Link>
                 </div>
                 <div className="hidden md:flex space-x-4">
                     {links.map((link) => (

@@ -17,8 +17,8 @@ function Resume() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {skills.map((skill, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg p-4">
-            <h2 className="text-xl font-bold mb-2">{skill.category}</h2>
-            <ul className="list-disc list-inside">
+            <h2 className="text-xl font-bold text-black mb-2">{skill.category}</h2>
+            <ul className="list-disc list-inside text-black">
               {skill.list.map((item, idx) => (
                 <li key={idx}>{item}</li>
               ))}

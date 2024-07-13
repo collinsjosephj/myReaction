@@ -11,7 +11,7 @@ function AboutMe() {
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
         <p className="text-lg leading-relaxed mb-4">
-          Hello! I am Joseph Collins, and I am a budding passionate full-stack developer with a focus on creating dynamic mobile-first user-friendly applications. With a background in accounting, I really like diving in to how things, and more so at times, why they dont work, and how it all ties together to provide developers and end-users with utility.
+          Hello! I am Joseph Collins, and I am a passionate budding full-stack developer with a focus on creating dynamic mobile-first user-friendly applications. With a background in accounting, I really like diving in to how things, and more so at times, why they dont work, and how it all ties together to provide developers and end-users with utility.
         </p>
         <p className="text-lg leading-relaxed mb-4">
           My journey in this field began during the Covid19 lockdown spending time in the Philippines, where I had to find something both creative and rewarding while we were all encouraged to stay at home. I am currently furthering my profiency in technologies such as React, Node.js, Express.js, and MongoDB, and I am always eager to explore new tools and frameworks. Collaborating with other developers and contributing to open-source projects has been an enriching experience, allowing me to grow both personally and professionally.

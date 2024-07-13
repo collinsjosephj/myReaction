@@ -1,33 +1,34 @@
-import Project from './Project';
+import { useState } from 'react';
+import Project from '../pages/Project';
 
-const projects = [
-  {
-    name: 'Project 1',
-    githubLink: 'https://github.com/yourusername/project1',
-    deployedLink: 'https://yourproject1.com',
-    imgSrc: 'https://via.placeholder.com/300x200'
-  },
-  {
-    name: 'Project 2',
-    githubLink: 'https://github.com/yourusername/project2',
-    deployedLink: 'https://yourproject2.com',
-    imgSrc: 'https://via.placeholder.com/300x200'
-  },
-  {
-    name: 'Project 3',
-    githubLink: 'https://github.com/yourusername/project3',
-    deployedLink: 'https://yourproject3.com',
-    imgSrc: 'https://via.placeholder.com/300x200'
-  },
-  {
-    name: 'Project 4',
-    githubLink: 'https://github.com/yourusername/project4',
-    deployedLink: 'https://yourproject4.com',
-    imgSrc: 'https://via.placeholder.com/300x200'
-  }
-];
+function Portfolio() {
+  const [projects] = useState([
+    {
+      name: 'project-1',
+      description: 'Description for Project 1',
+      deployedLink: 'https://yourproject1.com',
+      repo: 'https://github.com/yourusername/project1',
+    },
+    {
+      name: 'project-2',
+      description: 'Description for Project 2',
+      deployedLink: 'https://yourproject2.com',
+      repo: 'https://github.com/yourusername/project2',
+    },
+    {
+      name: 'project-3',
+      description: 'Description for Project 3',
+      deployedLink: 'https://yourproject3.com',
+      repo: 'https://github.com/yourusername/project3',
+    },
+    {
+      name: 'project-4',
+      description: 'Description for Project 4',
+      deployedLink: 'https://yourproject4.com',
+      repo: 'https://github.com/yourusername/project4',
+    }
+  ]);
 
-function ProjectsList() {
   return (
     <section className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4 text-center">Projects</h1>
@@ -36,9 +37,9 @@ function ProjectsList() {
           <Project
             key={project.name}
             name={project.name}
-            githubLink={project.githubLink}
+            description={project.description}
             deployedLink={project.deployedLink}
-            imgSrc={project.imgSrc}
+            repo={project.repo}
           />
         ))}
       </div>
@@ -46,4 +47,4 @@ function ProjectsList() {
   );
 }
 
-export default ProjectsList;
+export default Portfolio;

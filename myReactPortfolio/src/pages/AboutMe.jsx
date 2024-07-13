@@ -6,7 +6,7 @@ function AboutMe() {
       <img 
         src={Picture} 
         alt="Joseph Collins" 
-        className="w-48 h-48 rounded-full object-cover mb-6"
+        className="w-72 h-72 rounded-full object-cover mb-6"
       />
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-6">About Me</h1>

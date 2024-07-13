@@ -1,9 +1,5 @@
 import { useState } from 'react';
-import Project from '../components/Project';
-// import project1Img from '../assets/imgs/project1.png';
-// import project2Img from '../assets/imgs/project2.png';
-// import project3Img from '../assets/imgs/project3.png';
-// import project4Img from '../assets/imgs/project4.png';
+import Project from '../pages/Project';
 
 function Portfolio() {
   const [projects] = useState([

@@ -69,8 +69,8 @@ function Contact() {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Contact</h1>
+    <div className="max-w-md mx-auto p-4 animate-fade-in">
+      <h1 className="text-4xl font-bold mb-4 text-center mt-14">Contact</h1>
       <form onSubmit={handleSubmit}>
         <label className="block mb-2">
           Name:

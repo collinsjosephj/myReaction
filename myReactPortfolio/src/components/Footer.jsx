@@ -9,6 +9,12 @@ function Footer() {
             name: "fab fa-linkedin",
             link: "https://www.linkedin.com/in/joseph-collins-953994139/",
             label: "LinkedIn"
+        },
+        {
+            name: "oregon",
+            link: "https://www.uoregon.edu/",
+            label: "University of Oregon",
+            image: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Oregon_Ducks_logo.svg" // Update this with the correct URL
         }
     ];
 
@@ -24,7 +30,11 @@ function Footer() {
                         className="hover:text-gray-700"
                         aria-label={icon.label}
                     >
-                        <i className={`${icon.name} text-2xl`}></i>
+                        {icon.name === 'oregon' ? (
+                            <img src={icon.image} alt={icon.label} className="w-6 h-6 mt-1" />
+                        ) : (
+                            <i className={`${icon.name} text-2xl`}></i>
+                        )}
                     </a>
                 ))}
             </div>

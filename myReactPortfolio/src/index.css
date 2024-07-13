@@ -3,7 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+}
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */

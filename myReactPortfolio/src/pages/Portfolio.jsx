@@ -1,43 +1,52 @@
 import { useState } from 'react';
-import Project from '../pages/Project';
+import Project from '../components/Project';
+// import project1Img from '../assets/imgs/project1.png';
+// import project2Img from '../assets/imgs/project2.png';
+// import project3Img from '../assets/imgs/project3.png';
+// import project4Img from '../assets/imgs/project4.png';
 
 function Portfolio() {
   const [projects] = useState([
     {
-      name: 'project-1',
-      description: 'Description for Project 1',
-      deployedLink: 'https://yourproject1.com',
-      repo: 'https://github.com/yourusername/project1',
+      name: 'Plates with Purpose',
+      description: 'Group project using Restful APIs/MVC paradigm',
+      image: '/src/assets/imgs/plates.png',
+      deployedLink: 'https://plates-with-purpose-383e0dfd259c.herokuapp.com/',
+      repo: 'https://github.com/collinsjosephj/PlatesWithPurpose',
     },
     {
-      name: 'project-2',
-      description: 'Description for Project 2',
-      deployedLink: 'https://yourproject2.com',
-      repo: 'https://github.com/yourusername/project2',
+      name: 'PokeSimulator',
+      description: 'Front-End app for Pokemon',
+      image: '/src/assets/imgs/pokeapp.png',
+      deployedLink: 'https://collinsjosephj.github.io/PokeSimulator/',
+      repo: 'https://github.com/collinsjosephj/PokeSimulator',
     },
     {
-      name: 'project-3',
-      description: 'Description for Project 3',
-      deployedLink: 'https://yourproject3.com',
-      repo: 'https://github.com/yourusername/project3',
+      name: 'NoteTaker',
+      description: 'Express.js/JSON',
+      image: '/src/assets/imgs/notetaker.png',
+      deployedLink: 'https://expressjs-notetaker-54eb66328c8f.herokuapp.com/',
+      repo: 'https://github.com/collinsjosephj/expressNoteTaker',
     },
     {
-      name: 'project-4',
-      description: 'Description for Project 4',
-      deployedLink: 'https://yourproject4.com',
-      repo: 'https://github.com/yourusername/project4',
+      name: 'Weather Forecast',
+      description: '3rd party APIs',
+      image: '/src/assets/imgs/weatherapp.png',
+      deployedLink: 'https://collinsjosephj.github.io/weatherForecast/',
+      repo: 'https://github.com/collinsjosephj/weatherForecast',
     }
   ]);
 
   return (
     <section className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4 text-center">Projects</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center">Portfolio</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
         {projects.map(project => (
           <Project
             key={project.name}
             name={project.name}
             description={project.description}
+            image={project.image}
             deployedLink={project.deployedLink}
             repo={project.repo}
           />

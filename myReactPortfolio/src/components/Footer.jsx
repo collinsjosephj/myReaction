@@ -14,7 +14,7 @@ function Footer() {
             name: "oregon",
             link: "https://www.uoregon.edu/",
             label: "University of Oregon",
-            image: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Oregon_Ducks_logo.svg" // Update this with the correct URL
+            image: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Oregon_Ducks_logo.svg"
         }
     ];
 

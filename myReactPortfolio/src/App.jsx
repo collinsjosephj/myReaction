@@ -9,7 +9,7 @@ import Resume from "./pages/Resume";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white">
         <Header />
         <main className="flex-grow">
           <PageContent />
@@ -24,11 +24,11 @@ function PageContent() {
   const location = useLocation();
   return (
     <Routes location={location}>
-      <Route path="/aboutme" element={<AboutMe/>} />
+      <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
-      <Route path="/" element={<AboutMe/>} />
+      <Route path="/" element={<AboutMe />} />
     </Routes>
   );
 }

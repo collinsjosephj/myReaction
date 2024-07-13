@@ -11,7 +11,7 @@ function Header() {
 
     const links = [
         { path: '/', name: 'Home' },
-        { path: '/about', name: 'About Me' },
+        { path: '/aboutme', name: 'About Me' },
         { path: '/portfolio', name: 'Portfolio' },
         { path: '/contact', name: 'Contact' },
         { path: '/resume', name: 'Resume' },
@@ -21,7 +21,7 @@ function Header() {
         <header className="bg-gray-800 text-white p-4">
             <nav className="container mx-auto flex justify-between items-center">
                 <div className="text-2xl font-bold">
-                    <Link to="/">My Portfolio</Link>
+                    <Link to="/">My Story So Fa</Link>
                 </div>
                 <div className="hidden md:flex space-x-4">
                     {links.map((link) => (

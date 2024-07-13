@@ -2,7 +2,7 @@ import Picture from '../assets/imgs/picture.jpg';
 
 function AboutMe() {
   return (
-    <div className=" flex flex-col items-center p-8 max-w-4xl mx-auto">
+    <div className="flex flex-col items-center p-8 max-w-4xl mx-auto">
       <img 
         src={Picture} 
         alt="Joseph Collins" 

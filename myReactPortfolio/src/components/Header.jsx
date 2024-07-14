@@ -21,7 +21,7 @@ function Header() {
         <header className="bg-gray-800 text-white p-4 font-montserrat">
             <nav className="container mx-auto flex justify-between items-center">
                 <div className="text-5xl font-bold">
-                    <Link to="/">My Story So Far</Link>
+                    <Link to="/">My Portfolio</Link>
                 </div>
                 <div className="hidden md:flex space-x-4 font-bold">
                     {links.map((link) => (

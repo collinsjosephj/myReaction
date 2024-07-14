@@ -1,29 +1,33 @@
 import { useState } from 'react';
 import Project from '../pages/Project';
+import image1 from '../assets/imgs/plates.png';
+import image2 from '../assets/imgs/pokeapp.png';
+import image3 from '../assets/imgs/notes.png';
+import image4 from '../assets/imgs/weather.png';
 
 function Portfolio() {
   const [projects] = useState([
     {
       name: 'Plates with Purpose',
-      image: 'src/assets/imgs/plates.png',
+      image: image1,
       deployedLink: 'https://plates-with-purpose-383e0dfd259c.herokuapp.com/',
       repo: 'https://github.com/collinsjosephj/PlatesWithPurpose',
     },
     {
       name: 'PokeSimulator',
-      image: 'src/assets/imgs/pokeapp.png',
+      image: image2,
       deployedLink: 'https://collinsjosephj.github.io/PokeSimulator/',
       repo: 'https://github.com/collinsjosephj/PokeSimulator',
     },
     {
       name: 'NoteTaker',
-      image: 'src/assets/imgs/notes.png',
+      image: image3,
       deployedLink: 'https://expressjs-notetaker-54eb66328c8f.herokuapp.com/',
       repo: 'https://github.com/collinsjosephj/expressNoteTaker',
     },
     {
       name: 'Weather Forecast',
-      image: 'src/assets/imgs/weather.png',
+      image: image4,
       deployedLink: 'https://collinsjosephj.github.io/weatherForecast/',
       repo: 'https://github.com/collinsjosephj/weatherForecast',
     }

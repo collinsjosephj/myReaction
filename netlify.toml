@@ -1,0 +1,4 @@
+[build]
+  base    = "myReactPortfolio"
+  publish = "myReactPortfolio/dist"
+  command = "npm run build"

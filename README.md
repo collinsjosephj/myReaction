@@ -74,7 +74,7 @@ This portfolio built with React is hosted on Netlify. If you are interested in s
 - Set up continous deployment by following the instructions in the build process.
 - Deploy your site. Netlify will provide you with the URL for your live application to share with others and showcase your work!
 
-To view the deployed version of this project: [Click Here]()
+To view the deployed version of this project: [Click Here](https://main--josephcollins.netlify.app/)
 
 ## Contributing
 

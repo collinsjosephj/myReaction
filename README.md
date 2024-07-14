@@ -1,12 +1,13 @@
 
 # myReact.js Portfolio   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-<img width="1439" alt="reactportfolio" src="https://github.com/user-attachments/assets/f348ecc3-2617-4dea-b65c-44f6b8522ce5">
-
 ## Overview
 Welcome to my Portfolio Website, a showcase of my projects and skills built using React.js and styled with Tailwind CSS. I enjoyed putting this together, and I look forward to continually growing in this community as I learn new frameworks and face more challenges. This portfolio serves as a platform not only to share my projects while applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects.
 
 This portfolio is designed to provide an engaging and interactive experience for visitors, highlighting my work as a developer and allowing potential employers or collaborators to learn more about my professional background. The application is deployed on Netlify to ensure fast and reliable access.
+
+<img width="1439" alt="reactportfolio" src="https://github.com/user-attachments/assets/f348ecc3-2617-4dea-b65c-44f6b8522ce5">
+
 
 ### Features & Technologies Used
 - **Responsive Design**: Optimized for viewing on various devices, including desktops, tablets, and smartphones.

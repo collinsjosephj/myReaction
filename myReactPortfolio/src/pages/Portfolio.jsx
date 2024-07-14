@@ -5,25 +5,25 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: 'Plates with Purpose',
-      image: 'src/assets/imgs/plates.png',
+      image: 'myReactPortfolio/src/assets/imgs/plates.png',
       deployedLink: 'https://plates-with-purpose-383e0dfd259c.herokuapp.com/',
       repo: 'https://github.com/collinsjosephj/PlatesWithPurpose',
     },
     {
       name: 'PokeSimulator',
-      image: 'src/assets/imgs/pokeapp.png',
+      image: 'myReactPortfolio/src/assets/imgs/pokeapp.png',
       deployedLink: 'https://collinsjosephj.github.io/PokeSimulator/',
       repo: 'https://github.com/collinsjosephj/PokeSimulator',
     },
     {
       name: 'NoteTaker',
-      image: 'src/assets/imgs/notes.png',
+      image: 'myReactPortfolio/src/assets/imgs/notes.png',
       deployedLink: 'https://expressjs-notetaker-54eb66328c8f.herokuapp.com/',
       repo: 'https://github.com/collinsjosephj/expressNoteTaker',
     },
     {
       name: 'Weather Forecast',
-      image: 'src/assets/imgs/weather.png',
+      image: 'myReactPortfolio/src/assets/imgs/weather.png',
       deployedLink: 'https://collinsjosephj.github.io/weatherForecast/',
       repo: 'https://github.com/collinsjosephj/weatherForecast',
     }

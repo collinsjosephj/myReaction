@@ -39,36 +39,47 @@ This portfolio is designed to provide an engaging and interactive experience for
 
 To install this application, navigate to terminal(MacOS) or Bash(PC) and follow these steps:
 
-```
-# Clone the repo
-git clone https://github.com/collinsjosephj/myReaction.git
+1. Clone the repo
 
-# Navigate into the project subfolder located  within the repo
+```
+git clone https://github.com/collinsjosephj/myReaction.git
+```
+
+2. Navigate into the project repository
+
+```
 cd myReaction
+```
+
+3. Navigate into the project subfolder
+
+```
 cd myReactPortfolio
+```
 
 # Install dependencies
+
+```
 npm install
 ```
 
 ## Usage 
 
 To start the development server to view the portfolio locally:
+
 ```
 npm run dev
 ```
-Now, simply open your browser and navigate to `http://localhost:3000`.
 
-Alternatively, you can:
-```
-npm i
-npm run build
-npm start
-```
+- Now, simply open your browser and navigate to `http://localhost:3000`.
+- Links to my other projects so far are included, feel free and browse through them if you like.
+- This will continually be updated as I further my skills!
+
 
 ## Deployment
 
 This portfolio built with React is hosted on Netlify. If you are interested in showcasing your own work, setting up an account is simple, and to create your own version of this application:
+
 - Create an account on [Netlify](https://www.netlify.com/).
 - From there, link your GitHub repository to Netlify.
 - Set up continous deployment by following the instructions in the build process.
@@ -82,7 +93,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/collinsjosephj/myReaction/blob/main/LICENSE) file for details.
 
 ## Questions
 

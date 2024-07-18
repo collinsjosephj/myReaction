@@ -9,12 +9,15 @@ This portfolio is designed to provide an engaging and interactive experience for
 <img width="1439" alt="reactportfolio" src="https://github.com/user-attachments/assets/f348ecc3-2617-4dea-b65c-44f6b8522ce5">
 
 
-### Features & Technologies Used
+### Features
+
 - **Responsive Design**: Optimized for viewing on various devices, including desktops, tablets, and smartphones.
 - **Dynamic Content**: Projects and skills are dynamically loaded from a data source, making it easy to update and maintain.
 - **Smooth Animations**: Enhances user experience with smooth transitions and hover effects using Tailwind CSS.
 - **Downloadable Resume**: Visitors can download my resume directly from the site.
 - **Social Media Integration**: Links to GitHub, LinkedIn, and other relevant social media profiles.
+
+### Technology Used 
 
 - `React.js`:
 - `Tailwind CSS`: A utility-first CSS framework for creating custom designs.
@@ -57,7 +60,7 @@ cd myReaction
 cd myReactPortfolio
 ```
 
-# Install dependencies
+4. Install dependencies
 
 ```
 npm install
